@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -670,10 +670,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#circle-icons" class="md-nav__link">
+  <a href="#rendering-performance_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Circle icons
+        Rendering performance
       
     </span>
   </a>
@@ -2134,10 +2134,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#circle-icons" class="md-nav__link">
+  <a href="#rendering-performance_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Circle icons
+        Rendering performance
       
     </span>
   </a>
@@ -2436,15 +2436,16 @@ If you use external tools and multiple atlases, you will need to maintain this f
 <h4 id="smaller-icons">Smaller icons</h4>
 <p>A large number of atlases may be the result of having very large icons.
 We find that 100x100 pixels is good enough for most icons.</p>
-<h4 id="circle-icons">Circle icons</h4>
+<h4 id="rendering-performance_1">Rendering performance</h4>
 <p>To allow for faster rendering for icons, which has a major performance effect, you can copy the <a href="https://github.com/yairm210/Unciv/blob/master/android/Images.Icons/OtherIcons/Circle.png">"OtherIcons/circle.png"</a> to:</p>
 <ul>
-<li>"ImprovementIcons/Circle.png" for improvements</li>
+<li>"ImprovementIcons/Circle.png" for improvements - you can also copy "ImprovementIcons/Pillaged.png" for it to be packed with your icons</li>
 <li>"ResourceIcons/Circle.png" for resources</li>
 <li>"TechIcons/Circle.png" for technologies</li>
 <li>"ConstructionIcons/Circle.png" for buildings and units</li>
 <li>"StatIcons/Circle.png" for stats</li>
 </ul>
+<p>You should only do so if the mod icons will be the <em>majority</em> of the icons for each category, NOT if you're adding on a few more.</p>
 <h3 id="texture-packer-settings">Texture packer settings</h3>
 <p>The texture packers built into Unciv will look for a <code>TexturePacker.settings</code> file in each <code>Images</code> directory (<em>not</em> under <code>jsons</code>).
 With this file you can tune the packer - e.g. control pixel interpolation filters.
